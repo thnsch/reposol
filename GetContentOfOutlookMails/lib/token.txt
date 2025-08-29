@@ -1,0 +1,11 @@
+{
+ "token_type": "Bearer",
+ "scope": [
+  "https://graph.microsoft.com/Mail.Read"
+ ],
+ "expires_in": 3600,
+ "ext_expires_in": 3600,
+ "access_token": "xxxxxxxx",
+ "refresh_token": "xxxxxxxx",
+ "expires_at": 1602002703.0272424
+}
