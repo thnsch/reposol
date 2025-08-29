@@ -23,14 +23,14 @@ This project provides a Python script to extract specific content from Outlook e
 ## Usage
 
 1. **Configure credentials:**  
-   Edit `GetContentOfOutlookMails.py` and set your Microsoft app client ID and secret in `credentials`.
+   Edit `getContentOfOutlookMails.py` and set your Microsoft app client ID and secret in `credentials`.
 
 2. **Set your search subject:**  
    Adjust the `subject` variable to match the email subject you want to filter.
 
 3. **Run the script:**  
    ```sh
-   python GetContentOfOutlookMails.py
+   python getContentOfOutlookMails.py
    ```
    The script will prompt for authentication on the first run and store the token in `lib/token.txt`.
 

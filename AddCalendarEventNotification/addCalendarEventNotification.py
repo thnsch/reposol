@@ -1,6 +1,6 @@
 
 """
-AddCalendarEventNotification.py
+addCalendarEventNotification.py
 
 This script adds or updates popup reminders for all events in a specified Google Calendar.
 
@@ -8,7 +8,7 @@ Defaults and Notes:
 - Uses Python 2/3 compatible print function via __future__ import.
 - Default timezone is set to 'Europe/Amsterdam'.
 - Google Calendar API v3 is used.
-- The script uses OAuth2 for authentication; credentials are stored in 'my_lib/token.json'.
+- The script uses OAuth2 for authentication; credentials are stored in 'lib/token.json'.
 - By default, reminders are set to trigger 13 hours (13*60 minutes) before each event.
 - The calendar ID and search string should be set in the script.
 - If you modify the SCOPES variable, delete 'token.json' to re-authenticate.
@@ -37,7 +37,7 @@ timezone = 'Europe/Amsterdam'
 # if modifying scopes, delete the file token.json
 SCOPES = 'https://www.googleapis.com/auth/calendar.events'
 
-myLib = 'my_lib'
+libFolder = 'lib'
 
 googleApi = 'calendar'
 googleApiVersion = 'v3'
@@ -51,8 +51,8 @@ def main():
 	"""Add a reminder to AFVAL events.
 	"""
 
-	token = './{}/token.json'.format(myLib)
-	clientsecret = './{}/client_secret.json'.format(myLib)
+	token = './{}/token.json'.format(libFolder)
+	clientsecret = './{}/client_secret.json'.format(libFolder)
 
 	### authenticate
 	store = file.Storage(token)

@@ -1,5 +1,5 @@
 """
-GetContentOfOutlookMails.py
+getContentOfOutlookMails.py
 
 Extracts specific content from Outlook emails using the Microsoft Graph API via the O365 library.
 

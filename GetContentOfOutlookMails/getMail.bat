@@ -10,7 +10,7 @@ set path=%home%\..\_WPy-3710\python-3.7.1.amd64;C:\Program Files\Notepad++;%path
 
 REM python myMail.py  &&  goto END
 
-python GetContentOfOutlookMails.py  >"%outfile%"
+python getContentOfOutlookMails.py  >"%outfile%"
 
 notepad++.exe "%outfile%"
 

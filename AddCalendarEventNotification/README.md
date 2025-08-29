@@ -25,7 +25,7 @@ This project provides a Python script to add popup reminders to all events in a 
    - The script will generate a `token.json` in the same folder after the first run.
 
 3. **Configure the script:**
-   - Edit `AddCalendarEventNotification.py` and set your `googleCalendarId` to your calendar's ID.
+   - Edit `addCalendarEventNotification.py` and set your `googleCalendarId` to your calendar's ID.
 
 4. **Install dependencies:**
    ```sh
@@ -34,14 +34,14 @@ This project provides a Python script to add popup reminders to all events in a 
 
 5. **Run the script:**
    ```sh
-   python AddCalendarEventNotification.py
+   python addCalendarEventNotification.py
    ```
 
    The script will prompt for authentication on the first run.
 
 ## Customization
 
-- Change the `minutesBeforeEvent` variable in `AddCalendarEventNotification.py` to adjust how long before the event the reminder should trigger.
+- Change the `minutesBeforeEvent` variable in `addCalendarEventNotification.py` to adjust how long before the event the reminder should trigger.
 - You can modify the `searchString` variable to filter which events are updated.
 
 ## References
